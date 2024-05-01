@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <style>
+        h1{
+            color: goldenrod;
+        }
+        h1:hover{
+            color:blanchedalmond;
+            font-size: 50px;
+            background-color: aliceblue;
+        }
+        .special:hover{
+            color:coral;
+            font-size: 60px;
+            background-color: aqua;
+        }
+        input:focus{
+            font-size: 20px;
+            color: green;
+        }
+        li:first-child{
+            color: goldenrod;
+            background-color: indianred;
+        }
+        li:nth-child(2n){
+            background-color: antiquewhite;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Pseudo Class</h1>
+    <h1>Normal Class</h1>
+    <h1>Abnormal Class</h1>
+    <p>Pseudo Class</p>
+    <p>Normal Class</p>
+    <p class="special">Abnormal Class</p>
+    <input type="text"><br>
+    <input type="text"><br>
+    <ul>
+        <li>Alia</li>
+        <li>Dalia</li>
+        <li>Maliha</li>
+        <li>Salia</li>
+        <li>Kalia</li>
+        <li>Chaliya</li>
+        <li>Falia</li>
+    </ul>
+</body>
+</html>

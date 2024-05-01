@@ -1,0 +1,49 @@
+    <style>
+        h1{
+            color:brown;
+            background-color: rgba(46, 139, 86, 0.635);
+            height: 100px;
+            width: 80%;
+        }
+        p{
+            color: #f1ff6fba;
+            font-size: 25px;
+            font-weight: 800;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: justify;
+        }
+        #murgi{
+            color: tomato;
+        }
+        #birthday{
+            font-size: 50px;
+            color: blueviolet;
+        }
+        .friend{
+            background-color: greenyellow;
+        }
+        h1.friend{
+            font-size: 60px;
+        }
+        .neighbor{
+            width: 200px;
+        }
+        span{
+            color: red;
+        }
+        .blog{
+            background-color: lightblue;
+            border: 10px green solid;
+            border-radius: 20px;
+            margin: 25px 50px 75px 100px;
+            padding: 25px 50px 40px 100px;
+            width: 20%;
+            float: left;
+        }
+        h3{
+            text-align: center;
+        }
+        img{
+            width: 50%;
+        }
+    </style>
